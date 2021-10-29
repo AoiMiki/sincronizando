@@ -13,3 +13,4 @@ git branch -d "name" = borrar rama
 ----- Repo Remoto -----
 git remote add origin http... = sincronizar repositorio con github
 git push -u origin master = subir repositorio a github
+git pull origin master = traer cambios desde github

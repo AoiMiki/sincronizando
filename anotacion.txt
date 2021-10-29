@@ -1,7 +1,15 @@
-git add . =agregar todo
-git status = mostrar estado del repo
+----- On Git -----
+git init = crear repositorio
+git add . = agregar todo
+git status = mostrar estado del repositorio
 git commit -m "mensaje..." = guardar los cambios en el repositorio más mensaje
+
+----- Branches -----
 git branch "name" = crear ramas
 git checkout "name" = cambiar a la rama
 git merge "name" = junta la rama con la principal
 git branch -d "name" = borrar rama
+
+----- Repo Remoto -----
+git remote add origin http... = sincronizar repositorio con github
+git push -u origin master = subir repositorio a github

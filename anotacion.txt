@@ -10,7 +10,7 @@ git checkout "name" = cambiar a la rama
 git merge "name" = junta la rama con la principal
 git branch -d "name" = borrar rama
 
------ Repo Remoto -----
+----- On Github -----
 git remote add origin http... = sincronizar repositorio con github
 git push -u origin master = subir repositorio a github
 git pull origin master = traer cambios desde github
